@@ -1,2 +1,2 @@
-logmap: logmap
-	c++ logmap.cxx  -o logmap
+logmap: logmap.cxx
+	c++ -O3 logmap.cxx  -o logmap
